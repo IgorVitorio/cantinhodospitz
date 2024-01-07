@@ -25,7 +25,7 @@ html, body{
 }
 
 .section-3{
-    background-color: #e89293;
+    background-color: #f49d9f;
 }
 
 .section-4{
@@ -46,6 +46,7 @@ html, body{
  color: #ff7904;
  font-weight: 500;
 }
+
 .list-group-item{
     background-color: #ffffff00;
     border-color: #00000000;
@@ -64,6 +65,19 @@ html, body{
 }
 .cliente{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.494);
+}
+
+.carousel-control-prev-icon{
+    background-color: #c14004;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.carousel-control-next-icon{
+    background-color: #c14004;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
 }
 
 
@@ -88,11 +102,6 @@ html, body{
        color: #ff7904;
        padding-left: 210px;
        padding-right: 100px;
-    }
-
-    .active{
-        color:rgb(255, 102, 0) !important;
-        border-bottom: 2px solid #00000063;
     }
 
     .btn-menu{
@@ -129,10 +138,11 @@ html, body{
         padding-bottom: 10px;
        }
        
-    .carousel-item {
-        height: 600px;
-        object-fit: cover;
-      }
+
+    .filhote-meio{
+        border-left: 1px solid rgba(0, 0, 0, 0.149);
+        border-right: 1px solid rgba(0, 0, 0, 0.149);
+    }
 }
 
 @media (max-width: 889px){ /* Para CELULAR */
